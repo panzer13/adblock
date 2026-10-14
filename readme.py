@@ -35,7 +35,7 @@ class ReadMe(object):
                     rule = list(map(lambda x: x.strip(), line[1:-1].split('|')))
                     if rule[2].find('(') > 0 and rule[2].find(')') > 0 and rule[1].find('(') < 0:
                         url = rule[2][rule[2].find('(')+1:rule[2].find(')')]
-                        matchObj1 = re.match('(http|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&:/~\+#]*[\w\-\@?^=%&/~\+#])?', url)
+                        matchObj1 = re.match(r'(http|https)://[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&:/~\+#]*[\w\-\@?^=%&/~\+#])?', url)
                         if matchObj1:
                             self.ruleList.append(Rule(rule[0], rule[1], url, rule[-1]))
         return self.ruleList
@@ -129,6 +129,8 @@ class ReadMe(object):
             f.write("| 规则15' |" + self.__subscribeLink("adblocksurgelite.list") + " Surge |\n")
             f.write("| 规则16 |" + self.__subscribeLink("adblockmosdns.txt") + " MosDNS |\n")
             f.write("| 规则16' |" + self.__subscribeLink("adblockmosdnslite.txt") + " MosDNS |\n")
+            f.write("| 规则17 |" + self.__subscribeLink("adblockv2ray.dat") + " V2ray、Xray(category-ads-all) |\n")
+            f.write("| 规则17' |" + self.__subscribeLink("adblockv2raylite.dat") + " V2ray、Xray(category-ads-all) |\n")
             f.write("\n")
 
             f.write("## 上游规则源\n")
@@ -137,7 +139,7 @@ class ReadMe(object):
             f.write("3. 移除[Notracking blocklist](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)，原项目[已停止维护](https://github.com/notracking/hosts-blocklists/issues/900)。\n")
             f.write("4. 移除[ADgk](https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt)、[SmartTV Blocklist](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt)、[1024 hosts](https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts)、[ad-wars hosts](https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)规则长时间未更新。\n")
             f.write("5. 不再引用[NEO DEV HOST](https://github.com/neodevpro/neodevhost/blob/master/lite_adblocker)，原因见[Issues 85](https://github.com/217heidai/adblockfilters/issues/85)。\n")
-            f.write("6. 不再引用[xinggsf rule](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt)、[1Hosts (Lite)](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt)，误杀较多。\n")
+            f.write("6. 不再引用[xinggsf rule](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt)、[1Hosts (Lite)](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt)、[Hblock](https://hblock.molinero.dev/hosts_adblock.txt)，误杀较多。\n")
             f.write("\n")
 
             tmp = "| 规则 | 类型 | 原始链接 |"
@@ -150,12 +152,6 @@ class ReadMe(object):
             for rule in self.ruleList:
                 f.write("| %s | %s |%s %s |\n" % (rule.name, rule.type, self.__subscribeLink(rule.filename, rule.url),rule.latest))
             f.write("\n")
-            
+
             f.write("## Star History\n")
-            f.write("[![Star History Chart](https://api.star-history.com/svg?repos=217heidai/adblockfilters&type=Date)](https://star-history.com/#217heidai/adblockfilters&Date)\n")
-            '''
-            f.write("\n")
-            f.write("## 以下是广告\n")
-            f.write('感兴趣的可以看下，DartNode 免费 VPS, [点击申请](https://dartnode.com?aff=PudgyBurrito637)\n')
-            f.write('[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")\n')
-            '''
+            f.write("[![Star History Chart](https://star-history.dera.page/svg?repos=217heidai/adblockfilters)](https://star-history.dera.page/#217heidai/adblockfilters)\n")

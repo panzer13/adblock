@@ -8,6 +8,7 @@ env:
   TZ: Asia/Shanghai
   SMARTDNS_URL: https://github.com/pymumu/smartdns/releases/download/Release46.1/smartdns-x86_64
   SMARTDNS_PATH: /tmp/smartdns
+  DB_URL: https://github.com/217heidai/adblockfilters/releases/download/domain/domain.db
 
 jobs:
   Generate_Blacklist:
@@ -15,12 +16,12 @@ jobs:
 
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@main
+        uses: actions/checkout@v7
 
-      - name: Setup Python 3.9.x
-        uses: actions/setup-python@main
+      - name: Setup Python 3.14
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.9.x'
+          python-version: '3.14'
 
       - name: Install Dependencies
         run: |
@@ -36,6 +37,11 @@ jobs:
           cp smartdns.conf $SMARTDNS_PATH/smartdns.conf
           nohup $SMARTDNS_PATH/smartdns -f -x -c $SMARTDNS_PATH/smartdns.conf > /dev/null 2>&1 &
 
+      - name: Download DB
+        continue-on-error: true
+        run: |
+          wget $DB_URL -O domain.db
+
       - name: Generate Blacklist
         id: update
         run: |
@@ -43,13 +49,23 @@ jobs:
           rm -rf __pycache__
           echo "message=$(date)" >> $GITHUB_OUTPUT
 
+      - name: Upload DB
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{secrets.GITHUB_TOKEN}}
+          file_glob: true
+          file: domain.db
+          tag: domain
+          body: |
+          overwrite: true
+
       - name: Commit Changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: ${{ steps.update.outputs.message }}
           
       - name: Delete workflow runs
-        uses: Mattraks/delete-workflow-runs@main
+        uses: Mattraks/delete-workflow-runs@v2
         with:
           retain_days: 1
           keep_minimum_runs: 5
