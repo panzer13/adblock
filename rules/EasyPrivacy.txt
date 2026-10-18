@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: cZVkVW8sRflXP+XWXl89Ew
-! Version: 202610161912
+! Checksum: A9x65m1FP1d+d7ndIS1UdA
+! Version: 202610171802
 ! Title: EasyPrivacy
-! Last modified: 16 Oct 2026 19:12 UTC
+! Last modified: 17 Oct 2026 18:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10258,7 +10258,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||static-tracking.klaviyo.com^
 ||static.fengkongcloud.com^
 ||static.guance.com/browser-sdk/
-||static.klaviyo.com/onsite/js/event_adapter.
 ||static.myshlf.us/Affiliates/sms_aff_clicktrack-deciem.js
 ||static.parsely.com^$third-party
 ||static.rebelboost.com/tracking/
@@ -53727,7 +53726,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||static.amazon.jobs/assets/analytics-$script,domain=amazon.jobs
 @@||static.cloud.coveo.com/coveo.analytics.js/$domain=cabelas.com
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
-@@||static.klaviyo.com/onsite/js/event_adapter.$domain=gear.blizzard.com
 @@||static.knowledgehub.com/global/images/ping.gif?$~third-party
 @@||static.myfinance.com/widget/$domain=savingspro.org
 @@||static.pinpoll.com^$subdocument,domain=iframely.net
@@ -53868,6 +53866,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||dd.qwant.com.first-party-js.datadome.co^$domain=qwant.com
 @@||dd.thetrainline.com.first-party-js.datadome.co^$domain=thetrainline.com
 @@||dd.wizzair.com.first-party-js.datadome.co^$domain=wizzair.com
+@@||ddbm2.paypal.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=id.venmo.com
 @@||dwt.soundcloud.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=soundcloud.com
 @@||gva.et-gv.fr^$script,domain=culture.gouv.fr
 @@||mycleverpush.com/iframe?$domain=bsdex.de
