@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: qxObj2hoWeL+ckloy2vBUA
-! Version: 202610210352
+! Checksum: 6qqhICnAaa1FWCRZN+nfnA
+! Version: 202610231942
 ! Title: EasyPrivacy
-! Last modified: 21 Oct 2026 03:52 UTC
+! Last modified: 23 Oct 2026 19:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3572,6 +3572,7 @@ omni.soundestlink.com$image
 ||ckies.net^
 ||cland.fyi^
 ||clarity.ms^
+||clcksrv.com^
 ||clcktrax.com^
 ||clearbitscripts.com^
 ||click360.io^
@@ -3635,6 +3636,7 @@ omni.soundestlink.com$image
 ||eu-1-id5-sync.com^
 ||everesttech.net^
 ||ew3.io^
+||exfdg.com^
 ||experianmatch.info^
 ||ezstat.ru^
 ||f27tltnd.de^
@@ -3643,6 +3645,7 @@ omni.soundestlink.com$image
 ||fastfinch.co^
 ||fastgull.io^
 ||fasttiger.io^
+||fdgcore.com^
 ||featuregates.org^
 ||ffbbbdc6d3c353211fe2ba39c9f744cd.com^
 ||ffe390afd658c19dcbf707e0597b846d.de^
@@ -3657,6 +3660,7 @@ omni.soundestlink.com$image
 ||fptls3.com^
 ||fptls4.com^
 ||fran.pro^
+||fservr.com^
 ||fsrv.io^
 ||ftlaunchpad.ai^
 ||funnelserv.systems^
@@ -3999,6 +4003,7 @@ omni.soundestlink.com$image
 ||yottlyscript.com^
 ||youborafds01.com^
 ||youboranqs01.com^
+||yrtace.com^
 ||zdbb.net^
 ||zenaps.com^
 ||zippyfrog.co^
@@ -8326,6 +8331,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacon.securestudies.com^
 ||beacon.sftoaa.com^
 ||beacon.sojern.com^
+||beacon.viafoura.io^
 ||beacon.webpresence.work^
 ||beacons.mediamelon.com^
 ||beam.mjhlifesciences.com^
@@ -13935,6 +13941,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nzpages.co.nz/modules/common/track.js
 ||observe.metarouter.io^
 ||ocular.hotukdeals.com^
+||ocular.pepperdeals.com^
 ||odysee.com/reports/
 ||ohm-dot-hackster-io.appspot.com^
 ||oklink.com/jsstat/
@@ -15046,6 +15053,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log-185a61e7.bendigobank.com.au^
 ||log-2ffe60ee.westpac.com.au^
 ||mfasa.chase.com/auth/js/jpmc_bb_check.js
+||o-api.hotukdeals.com^
 ||olacontent.schwab.com^$script
 ||perplexity.ai/unifyintent.js
 ||qfp.intuit.com^
@@ -51351,6 +51359,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||newsdeutschland.com/RPC.php
 ||nickles.de/ivw/
 ||nius.de/monitoring
+||ocular.mydealz.de^
+||ocular.preisjaeger.at^
 ||ostjob.ch/public/statistic/teaser/hit/
 ||otto.de/error-logging/
 ||otto.de/pass/scale-beacon-service/
@@ -52753,6 +52763,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||fensi.plus^*/tracking/
 ||fp.kakaku.com^
 ||fspark-ap.com/ft/analytics_log
+||ftbucket.info/*/track.php
 ||g123.jp/stats?
 ||game-i.daa.jp/skin/analytics.php
 ||game8.jp/logs^
@@ -52800,6 +52811,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||nicolive.cdn.nimg.jp/relive/sp/trackingService.
 ||nicovideo.jp/analyze/
 ||nicovideo.jp/api/counter/
+||nijiurachan.net/analytics/
 ||nikkei.com/.resources/tracking/
 ||nkis.nikkei.com/imp?
 ||note.com/api/v3/trackings/
@@ -52987,6 +52999,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||mklik.gazeta.pl^
 ||mr.allegro.
 ||nasza-klasa.pl^*/pp_gemius
+||ocular.pepper.pl^
 ||p.gazeta.pl^
 ||pb.siepomaga.pl^
 ||pixel.wp.pl^
@@ -53258,6 +53271,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||mega.promodescuentos.com^
 ||mercadolibre.com/tracks^
 ||mundodesconocido.com/tracker/
+||ocular.chollometro.com^
 ||ocular.promodescuentos.com^
 ||pccomponentes.*/api/users/tracking/
 ||pixel.europapress.net^
@@ -53296,6 +53310,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||fotbollskanalen.se^$ping
 ||fusion.bonniertidskrifter.se^
 ||gx.idg.se^
+||ocular.pepperdeals.se^
 ||prisjakt.nu/js.php?p=trafikfonden
 ||stat.nyheter24.se^
 ! Thai
