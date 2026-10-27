@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: oL4GpagYey2rgq2vJ34g6Q
-! Version: 202610250352
+! Checksum: jOoUPdTN3JtjxN37aN0www
+! Version: 202610270421
 ! Title: EasyPrivacy
-! Last modified: 25 Oct 2026 03:52 UTC
+! Last modified: 27 Oct 2026 04:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2665,6 +2665,7 @@
 /uem-ep.js
 /uisprime/track
 /umami.js
+/umami/script.js
 /umg-analytics.min.js
 /umg-analytics/umgaal.min.js
 /umt.gif?
@@ -9470,7 +9471,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.dpa.com^
 ||log.go.com^
 ||log.mediacategory.com^
-||log.nordot.jp^
+||log.nordot.jp^$~script
 ||log.olark.com^
 ||log.outbrain.com^
 ||log.pinterest.com^
