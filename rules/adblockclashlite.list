@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists PRO mini、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20261028225906
-# Last modified: 2026/10/28 22:59:06
-# Blocked domains: 8482
+# Version: 20261029045317
+# Last modified: 2026/10/29 04:53:17
+# Blocked domains: 8480
 #
 [Rule]
 DOMAIN-SUFFIX,kwflvcdn.000dn.com,REJECT-DROP
@@ -2272,7 +2272,6 @@ DOMAIN-SUFFIX,daciuehpyf.com,REJECT-DROP
 DOMAIN-SUFFIX,dadde.cn,REJECT-DROP
 DOMAIN-SUFFIX,dadzz.cn,REJECT-DROP
 DOMAIN-SUFFIX,dagwi.cn,REJECT-DROP
-DOMAIN-SUFFIX,dajars.shop,REJECT-DROP
 DOMAIN-SUFFIX,daliantong.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,mcds.dalyfeds.com,REJECT-DROP
 DOMAIN-SUFFIX,profiler-collector.dalyfeds.com,REJECT-DROP
@@ -5855,7 +5854,6 @@ DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao-b.com.queniuyk.com,REJECT-DROP
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com.queniuyk.com,REJECT-DROP
 DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao.com.queniuyk.com,REJECT-DROP
 DOMAIN-SUFFIX,tnc3-alisc1.zijieapi.com.queniuyk.com,REJECT-DROP
-DOMAIN-SUFFIX,quiavo.shop,REJECT-DROP
 DOMAIN-SUFFIX,chat.quickcep.com,REJECT-DROP
 DOMAIN-SUFFIX,qujishu.com,REJECT-DROP
 DOMAIN-SUFFIX,sbbd1.qulishi.com,REJECT-DROP
