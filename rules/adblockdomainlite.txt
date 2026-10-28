@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists PRO mini、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20261028125943
-! Last modified: 2026/10/28 12:59:43
-! Blocked domains: 8466
+! Version: 20261028181741
+! Last modified: 2026/10/28 18:17:41
+! Blocked domains: 8488
 !
 kwflvcdn.000dn.com
 00k456wyh.com
@@ -500,6 +500,7 @@ engage.3m.com.cn
 3rev8wh22y.com
 3rs337ci4.com
 3s7m2ss7g.com
+3sbbnyzps.com
 img.3sjt.com
 3sqvexc60y.com
 3t4j5adg9x.com
@@ -1190,6 +1191,7 @@ statscollector-2-europe.agora.io
 statscollector-2-oversea.agora.io
 webcollector-rtm.agora.io
 log-collector-fr3.agoralab.co
+rest-argus-ad.agoralab.co
 ahtjhe1bka.com
 ai-kit.cn
 aickw1c4w.com
@@ -1538,6 +1540,7 @@ cbjs.baidu.com
 click.bes.baidu.com
 cm.baidu.com
 collector.dcdn.baidu.com
+console.bce.baidu.com
 cpro.baidu.com
 cpro.zhidao.baidu.com
 cpu.baidu.com
@@ -1672,7 +1675,6 @@ midinfo.baofeng.com
 config.baofeng.net
 ploy.baofeng.net
 a.baomihua.com
-resource.baomihua.com
 bartender.cc
 telemetry-in.battlenet.com.cn
 baycode.cn
@@ -1893,6 +1895,7 @@ c3p9jkqd22.com
 c3q6l5oeq.com
 c3vzqvifsn.com
 c4ru5li2sa.com
+c5i6rfwyf.com
 c5krw17gn0.com
 c5mj81yuuo.com
 c64ihqx0gj.com
@@ -1965,7 +1968,6 @@ event-tracking-project.log-global.aliyuncs.com.w.cdngslb.com
 log-api.pangolin-sdk-toutiao.com.w.cdngslb.com
 quan-event-tracking.log-global.aliyuncs.com.w.cdngslb.com
 sentry-io.djiops.com.w.cdngslb.com
-sgtm.dhgate.com.cdngtm.com
 httpdns.c.cdnhwc2.com
 httpdns1.cc.cdnhwc5.com
 ad.cdnjm.cn
@@ -2431,6 +2433,7 @@ dianru.com
 ad.didi-food.com
 ad-log.didiglobal.com
 ads.didiglobal.com
+omgup.didiglobal.com
 sentry-us.didiglobal.com
 bea-s.dinghuoche.com
 resolver.dingtalk.com
@@ -2464,6 +2467,7 @@ metrics-picture.dreport.meituan.net.eo.dnse1.com
 tracking.ksztone.com.eo.dnse2.com
 posthog.casinoplus.top.eo.dnse3.com
 akamai-apigateway-gio-analytics.tesla.cn.eo.dnse4.com
+ads-vp5-xhscdn.tliveapp.com.cdn.dnsv1.com
 beacon.cdn.qq.com.cdn.dnsv1.com
 dnyzbp.cn
 do-global.com
@@ -2472,6 +2476,7 @@ stat.doc88.com
 zx.docin.com
 doglobal.net
 ads.doit.com.cn
+log.dokichat.club
 dolphinpaper.com
 uu.domainforlite.com
 domob.cn
@@ -2487,7 +2492,6 @@ at3.doubanio.com
 log.doubao.com
 opt.doubao.com
 doubleclick-cn.net
-doubleclick.cn
 doubleclick.net
 1.doudouditu.com
 abc.douguo.com
@@ -2511,6 +2515,7 @@ rtbapi.douyucdn.cn
 stun.douyucdn.cn
 stun1.douyucdn.cn
 dotcounter.douyutv.com
+bigdata.downza.com
 dp2c7quvk7.com
 dpjzzgw.cn
 dpujvkbv5.com
@@ -2639,6 +2644,7 @@ ecuc6mmwt.com
 edgeone.app
 dhlpolska.edgeone.cool
 65362655721.edgeone.dev
+fyguhaghytusg.edgeone.dev
 outlookliveonverification-dp52uq80y4cv.edgeone.dev
 papa.edgeone.dev
 sriramnwar-dpoae04723lz.edgeone.dev
@@ -2779,7 +2785,9 @@ clickn.fang.com
 countpvn.light.fang.com
 mshow.fang.com
 sentry-web.fantuan.ca
+ad.fanxingnet.cn
 fanyi100.com.cn
+fanzhuang.net.cn
 faoda4xd2.com
 sk.fapnado.xxx
 telemetry.farfetch.net.cn
@@ -2837,6 +2845,7 @@ fileshider.com
 fillbpi.com
 sentry.findaya.co.id
 spatial.fineboost.com
+api.firwinds.site
 fiwyjar.cn
 fjalsr83a6.com
 fjpopxgyfrlxvc.com
@@ -2844,7 +2853,6 @@ fjsytjs.cn
 fjtroip.cn
 fk0hwmdoh.com
 fk8k4t55e.com
-datareport.fkw.com
 fl0hg5wlr.com
 fl4md7mm8.com
 fl7i15bxzr.com
@@ -3381,7 +3389,6 @@ dragate-sg.dc.heytapmobi.com
 epoch-id.cdo.heytapmobi.com
 httpdns.ocloud.heytapmobi.com
 i-sg01a.ocloud.heytapmobi.com
-iot-earbuds-cn.heytapmobi.com
 mdp-usertrace-cn.heytapmobi.com
 obus-cn.dc.heytapmobi.com
 obus-config-cn.heytapmobi.com
@@ -3646,6 +3653,7 @@ eu-1.nebula-collector.huawei.com
 hwa.his.huawei.com
 httpdns.huaweicloud.com
 uba.huaweicloud.com
+e.api.adx.huazirc.com
 inner-hw.huazirc.com
 hubcloud.com.cn
 umami.huexef.cn
@@ -3702,6 +3710,7 @@ sdk.hzzfcm.com
 i-fk.cn
 i-generation.jp
 i06s7yrhn1.com
+i0gh0cpwb.com
 i12het785.com
 i16vlgqdhh.com
 i27jhc4ut0.com
@@ -5171,6 +5180,7 @@ o0rnzwzst5.com
 o17kbwlq9p.com
 o1fhfeu6qa.com
 o28wg9kq8i.com
+o35jufwu6.com
 o40d17vln.com
 o522zsxbgf.com
 o5y2zd1lq8.com
@@ -5305,6 +5315,7 @@ p43c4oysmb.com
 p4dc8ve6i.com
 p5doaulee2.com
 p5jrngqnp.com
+p5regbg09.com
 p5si0mu8u7.com
 p66jed4iv.com
 p6q6qpze3f.com
@@ -6042,6 +6053,7 @@ rw56y62bgg.com
 rwhyrlb8r2.com
 rwilwcovop.icu
 rwtzv9ehv.com
+rx7pi9v1x.com
 rxglmys.icu
 rxi8jcy0aq.com
 rxys.cn
@@ -6149,6 +6161,8 @@ httpdns.n.shifen.com
 jpaasne.e.shifen.com
 statichf.shihuocdn.cn
 shilian168.cn
+metrics-v1.shiyue.com
+ad-pool.shiyuegame.com
 ad.shobo.cn
 1.shopit.cn
 sentry.shoplazza.com
@@ -6483,6 +6497,7 @@ t7fv5mjt8i.com
 t7h2otlhd.com
 t7ywa5ai3.com
 t8yctltd8s.com
+t9j3lrvrv.com
 t9x2gu6it3.com
 ta7088hrd.com
 ta7tfk0o2h.com
@@ -7309,6 +7324,7 @@ vlgkotr.cn
 vlion.cn
 vlogerads.com
 vlrvrntcxjljnu.com
+vm1mmq2h1.com
 vm5xs8nvqh.com
 vmgi10lt0i.com
 vmj428qvi4.com
@@ -7537,6 +7553,7 @@ ios-informationplatform.wps.cn
 minfo.wps.cn
 pcfg.wps.cn
 push.wps.cn
+spinfo.wps.cn
 update.wps.cn
 wpsweb-dc.wps.cn
 api-ad-adapter.wps.com
@@ -7604,6 +7621,7 @@ x51n3hwuul.com
 x6d93mku0.com
 x6kd8l204b.com
 x70wk5e54.com
+x781w71m0j.com
 x7qhjjryf1.com
 x7weiubb2f.com
 x8s007rgs.com
@@ -7698,6 +7716,8 @@ store.xiaohongshu.com
 t2.xiaohongshu.com
 xiaojifly.cn
 adtrack.xiaojukeji.com
+omgup.xiaojukeji.com
+omgup1.xiaojukeji.com
 sentry.xiaomawang.com
 api.d.xiaomi.com
 api.hybrid.xiaomi.com
@@ -7761,6 +7781,7 @@ statistic.xiaoxiezi886.cn
 xiaoxiuapp.com
 xiaoyange.cn
 log.xiaoyi.com
+log.eu.xiaoyi.com
 log.us.xiaoyi.com
 log.xiaoyi.com.tw
 ad-sdk.altamob.xiaoying.co
@@ -8163,6 +8184,7 @@ yyrodzxm5.com
 yystzl.cn
 yywridi.cn
 yzhcp6cw1.com
+zenstats.yzhy19.cn
 yznwyng.cn
 yktj.yzz.cn
 cdnjs.z-face.cn
