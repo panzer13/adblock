@@ -10,8 +10,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2026/10/28 18:17:41
-#!support=8488
+#!date=2026/10/28 22:59:07
+#!support=8482
 #!proxy-select=REJECT
 #
 .kwflvcdn.000dn.com
@@ -1412,7 +1412,6 @@
 .app-measurement.com
 .mobile.appchina.com
 .appdriver.cn
-.www.appdriver.com.cn
 .ads.apple.com
 .experiments.apple.com
 .iadcontent.apple.com
@@ -1677,9 +1676,7 @@
 .log.banjixiaoguanjia.com
 .sentry.banjixiaoguanjia.com
 .sentry.bankneo.co.id
-.active.baofeng.com
 .midinfo.baofeng.com
-.config.baofeng.net
 .ploy.baofeng.net
 .a.baomihua.com
 .bartender.cc
@@ -2474,7 +2471,6 @@
 .tracking.ksztone.com.eo.dnse2.com
 .posthog.casinoplus.top.eo.dnse3.com
 .akamai-apigateway-gio-analytics.tesla.cn.eo.dnse4.com
-.ads-vp5-xhscdn.tliveapp.com.cdn.dnsv1.com
 .beacon.cdn.qq.com.cdn.dnsv1.com
 .dnyzbp.cn
 .do-global.com
@@ -5621,7 +5617,6 @@
 .qls7v6jd3.com
 .qlscg0qnz.com
 .a6-remad.qm989.com
-.t-remad.qm989.com
 .logger.qmai.cn
 .qmj89db55u.com
 .qmtrnqp900.com
@@ -5869,7 +5864,6 @@
 .quiavo.shop
 .chat.quickcep.com
 .qujishu.com
-.m.qulishi.com
 .sbbd1.qulishi.com
 .bc.qunar.com
 .log.flight.qunar.com

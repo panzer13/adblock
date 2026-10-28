@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists PRO mini、OISD Basic、StevenBlack hosts、Pollock hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20261028181741
-# Last modified: 2026/10/28 18:17:41
-# Blocked domains: 8488
+# Version: 20261028225906
+# Last modified: 2026/10/28 22:59:06
+# Blocked domains: 8482
 #
 [Rule]
 DOMAIN-SUFFIX,kwflvcdn.000dn.com,REJECT-DROP
@@ -1406,7 +1406,6 @@ DOMAIN-SUFFIX,app-analytics-services.com,REJECT-DROP
 DOMAIN-SUFFIX,app-measurement.com,REJECT-DROP
 DOMAIN-SUFFIX,mobile.appchina.com,REJECT-DROP
 DOMAIN-SUFFIX,appdriver.cn,REJECT-DROP
-DOMAIN-SUFFIX,www.appdriver.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,ads.apple.com,REJECT-DROP
 DOMAIN-SUFFIX,experiments.apple.com,REJECT-DROP
 DOMAIN-SUFFIX,iadcontent.apple.com,REJECT-DROP
@@ -1671,9 +1670,7 @@ DOMAIN-SUFFIX,tuplogpublic.bangcdn.net,REJECT-DROP
 DOMAIN-SUFFIX,log.banjixiaoguanjia.com,REJECT-DROP
 DOMAIN-SUFFIX,sentry.banjixiaoguanjia.com,REJECT-DROP
 DOMAIN-SUFFIX,sentry.bankneo.co.id,REJECT-DROP
-DOMAIN-SUFFIX,active.baofeng.com,REJECT-DROP
 DOMAIN-SUFFIX,midinfo.baofeng.com,REJECT-DROP
-DOMAIN-SUFFIX,config.baofeng.net,REJECT-DROP
 DOMAIN-SUFFIX,ploy.baofeng.net,REJECT-DROP
 DOMAIN-SUFFIX,a.baomihua.com,REJECT-DROP
 DOMAIN-SUFFIX,bartender.cc,REJECT-DROP
@@ -2468,7 +2465,6 @@ DOMAIN-SUFFIX,metrics-picture.dreport.meituan.net.eo.dnse1.com,REJECT-DROP
 DOMAIN-SUFFIX,tracking.ksztone.com.eo.dnse2.com,REJECT-DROP
 DOMAIN-SUFFIX,posthog.casinoplus.top.eo.dnse3.com,REJECT-DROP
 DOMAIN-SUFFIX,akamai-apigateway-gio-analytics.tesla.cn.eo.dnse4.com,REJECT-DROP
-DOMAIN-SUFFIX,ads-vp5-xhscdn.tliveapp.com.cdn.dnsv1.com,REJECT-DROP
 DOMAIN-SUFFIX,beacon.cdn.qq.com.cdn.dnsv1.com,REJECT-DROP
 DOMAIN-SUFFIX,dnyzbp.cn,REJECT-DROP
 DOMAIN-SUFFIX,do-global.com,REJECT-DROP
@@ -5615,7 +5611,6 @@ DOMAIN-SUFFIX,qlfvmcy1sp.com,REJECT-DROP
 DOMAIN-SUFFIX,qls7v6jd3.com,REJECT-DROP
 DOMAIN-SUFFIX,qlscg0qnz.com,REJECT-DROP
 DOMAIN-SUFFIX,a6-remad.qm989.com,REJECT-DROP
-DOMAIN-SUFFIX,t-remad.qm989.com,REJECT-DROP
 DOMAIN-SUFFIX,logger.qmai.cn,REJECT-DROP
 DOMAIN-SUFFIX,qmj89db55u.com,REJECT-DROP
 DOMAIN-SUFFIX,qmtrnqp900.com,REJECT-DROP
@@ -5863,7 +5858,6 @@ DOMAIN-SUFFIX,tnc3-alisc1.zijieapi.com.queniuyk.com,REJECT-DROP
 DOMAIN-SUFFIX,quiavo.shop,REJECT-DROP
 DOMAIN-SUFFIX,chat.quickcep.com,REJECT-DROP
 DOMAIN-SUFFIX,qujishu.com,REJECT-DROP
-DOMAIN-SUFFIX,m.qulishi.com,REJECT-DROP
 DOMAIN-SUFFIX,sbbd1.qulishi.com,REJECT-DROP
 DOMAIN-SUFFIX,bc.qunar.com,REJECT-DROP
 DOMAIN-SUFFIX,log.flight.qunar.com,REJECT-DROP

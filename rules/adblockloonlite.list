@@ -7,8 +7,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2026/10/28 18:17:41
-#!support=8488
+#!date=2026/10/28 22:59:06
+#!support=8482
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,kwflvcdn.000dn.com
@@ -1409,7 +1409,6 @@ DOMAIN-SUFFIX,app-analytics-services.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,mobile.appchina.com
 DOMAIN-SUFFIX,appdriver.cn
-DOMAIN-SUFFIX,www.appdriver.com.cn
 DOMAIN-SUFFIX,ads.apple.com
 DOMAIN-SUFFIX,experiments.apple.com
 DOMAIN-SUFFIX,iadcontent.apple.com
@@ -1674,9 +1673,7 @@ DOMAIN-SUFFIX,tuplogpublic.bangcdn.net
 DOMAIN-SUFFIX,log.banjixiaoguanjia.com
 DOMAIN-SUFFIX,sentry.banjixiaoguanjia.com
 DOMAIN-SUFFIX,sentry.bankneo.co.id
-DOMAIN-SUFFIX,active.baofeng.com
 DOMAIN-SUFFIX,midinfo.baofeng.com
-DOMAIN-SUFFIX,config.baofeng.net
 DOMAIN-SUFFIX,ploy.baofeng.net
 DOMAIN-SUFFIX,a.baomihua.com
 DOMAIN-SUFFIX,bartender.cc
@@ -2471,7 +2468,6 @@ DOMAIN-SUFFIX,metrics-picture.dreport.meituan.net.eo.dnse1.com
 DOMAIN-SUFFIX,tracking.ksztone.com.eo.dnse2.com
 DOMAIN-SUFFIX,posthog.casinoplus.top.eo.dnse3.com
 DOMAIN-SUFFIX,akamai-apigateway-gio-analytics.tesla.cn.eo.dnse4.com
-DOMAIN-SUFFIX,ads-vp5-xhscdn.tliveapp.com.cdn.dnsv1.com
 DOMAIN-SUFFIX,beacon.cdn.qq.com.cdn.dnsv1.com
 DOMAIN-SUFFIX,dnyzbp.cn
 DOMAIN-SUFFIX,do-global.com
@@ -5618,7 +5614,6 @@ DOMAIN-SUFFIX,qlfvmcy1sp.com
 DOMAIN-SUFFIX,qls7v6jd3.com
 DOMAIN-SUFFIX,qlscg0qnz.com
 DOMAIN-SUFFIX,a6-remad.qm989.com
-DOMAIN-SUFFIX,t-remad.qm989.com
 DOMAIN-SUFFIX,logger.qmai.cn
 DOMAIN-SUFFIX,qmj89db55u.com
 DOMAIN-SUFFIX,qmtrnqp900.com
@@ -5866,7 +5861,6 @@ DOMAIN-SUFFIX,tnc3-alisc1.zijieapi.com.queniuyk.com
 DOMAIN-SUFFIX,quiavo.shop
 DOMAIN-SUFFIX,chat.quickcep.com
 DOMAIN-SUFFIX,qujishu.com
-DOMAIN-SUFFIX,m.qulishi.com
 DOMAIN-SUFFIX,sbbd1.qulishi.com
 DOMAIN-SUFFIX,bc.qunar.com
 DOMAIN-SUFFIX,log.flight.qunar.com
